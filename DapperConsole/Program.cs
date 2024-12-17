@@ -13,12 +13,12 @@ namespace DapperConsole
          DalPeople dalPeople = new DalPeople(connection);
 
          People people = new People();
-         people.Name = "Nunes B.";
+         people.Name = "Aline Souza";
          people.CreatedAt = DateTime.Now;
          people.UpdatedAt = null;
          people.Status = true;
 
-         people = dalPeople.Create(people);
+         dalPeople.Create(people);
       }
    }
 }
