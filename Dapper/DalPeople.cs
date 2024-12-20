@@ -3,6 +3,7 @@ using Models;
 using System;
 using System.Data;
 using System.Text;
+
 namespace DapperBase
 {
    public class DalPeople
